@@ -1,0 +1,6 @@
+// 顶部定位文字超限处理
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+ text-overflow: ellipsis;
+}
